@@ -97,13 +97,12 @@ Even if you needed hints or a walkthrough — **document it**. The writeup proce
 
 ## My Progress Tracker
 
-| #   | Platform  | Challenge / Room         | Category           | Difficulty | Date       | Status         |
-| --- | --------- | ------------------------ | ------------------ | ---------- | ---------- | -------------- |
-| 1   | TryHackMe | [Room Name]              | [Category]         | Easy       | [Date]     | ✅ Complete    |
-| 2   | TryHackMe | Offensive Security Intro | Offensive Security | Easy       | 2026-05-27 | ✅ Complete    |
-| 2   | TryHackMe | Careers in Cyber         | Learning           | Easy       | 2026-01-26 | ✅ Complete    |
-| 2   | PicoCTF   | [Challenge Name]         | Forensics          | Easy       | [Date]     | ✅ Complete    |
-| 3   | PicoCTF   | [Challenge Name]         | Web                | Medium     | [Date]     | 🔄 In Progress |
+| #   | Platform  | Challenge / Room         | Category           | Difficulty | Date       | Status      |
+| --- | --------- | ------------------------ | ------------------ | ---------- | ---------- | ----------- |
+| 1   | TryHackMe | [Room Name]              | [Category]         | Easy       | [Date]     | ✅ Complete |
+| 2   | TryHackMe | Offensive Security Intro | Offensive Security | Easy       | 2026-05-27 | ✅ Complete |
+| 2   | TryHackMe | Careers in Cyber         | Learning           | Easy       | 2026-01-26 | ✅ Complete |
+| 3   | TryHackMe | What is Networking?      | Networking         | Easy       | 2026-06-04 | ✅ Complete |
 
 _(Update this table as you complete challenges)_
 
@@ -115,9 +114,10 @@ _(Update this table as you complete challenges)_
 
 ### Index
 
-| Challenge                                                          | Platform    | Category     | Difficulty | Flag |
-| ------------------------------------------------------------------ | ----------- | ------------ | ---------- | ---- |
-| [Example — Bandit Level 0](writeups/overthewire/bandit-level-0.md) | OverTheWire | Linux Basics | Easy       | ✅   |
+| Challenge                                                                  | Platform    | Category     | Difficulty | Flag |
+| -------------------------------------------------------------------------- | ----------- | ------------ | ---------- | ---- |
+| [Example — Bandit Level 0](writeups/overthewire/bandit-level-0.md)         | OverTheWire | Linux Basics | Easy       | ✅   |
+| [What is Networking?](tryhackme/pre-security/what-is-networking/README.md) | TryHackMe   | Networking   | Easy       | ✅   |
 
 ---
 
