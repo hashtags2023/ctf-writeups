@@ -2,9 +2,10 @@
 
 > A collection of my CTF (Capture The Flag) challenge writeups. Each writeup documents my methodology, tools used, thought process, and key takeaways. Written to reinforce learning and help others in the community.
 
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-In%20Progress-red?style=flat)](https://tryhackme.com)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-In%20Progress-red?style=flat)](https://tryhackme.com/p/hashtags2023)
 [![Platforms](https://img.shields.io/badge/Platforms-THM%20%7C%20HTB%20%7C%20PicoCTF-blue?style=flat)](#)
 [![Focus](https://img.shields.io/badge/Focus-Blue%20%26%20Red%20Team-purple?style=flat)](#)
+[![Writeups](https://img.shields.io/badge/Writeups-1-green?style=flat)](#writeups)
 
 ---
 
@@ -99,43 +100,39 @@ Even if you needed hints or a walkthrough — **document it**. The writeup proce
 
 | #   | Platform  | Challenge / Room         | Category           | Difficulty | Date       | Status      |
 | --- | --------- | ------------------------ | ------------------ | ---------- | ---------- | ----------- |
-| 1   | TryHackMe | [Room Name]              | [Category]         | Easy       | [Date]     | ✅ Complete |
-| 2   | TryHackMe | Offensive Security Intro | Offensive Security | Easy       | 2026-05-27 | ✅ Complete |
-| 2   | TryHackMe | Careers in Cyber         | Learning           | Easy       | 2026-01-26 | ✅ Complete |
+| 1   | TryHackMe | Offensive Security Intro | Offensive Security | Easy       | 2026-05-27 | ✅ Complete |
+| 2   | TryHackMe | Careers in Cyber         | Learning           | Easy       | 2026-05-27 | ✅ Complete |
 | 3   | TryHackMe | What is Networking?      | Networking         | Easy       | 2026-06-04 | ✅ Complete |
 
-_(Update this table as you complete challenges)_
+_(Updated as challenges are completed)_
 
 ---
 
 ## Writeups
 
-> Each writeup lives in its own folder. Template below.
+> Each writeup lives in its own folder. See the template below for the format used.
 
 ### Index
 
-| Challenge                                                                  | Platform    | Category     | Difficulty | Flag |
-| -------------------------------------------------------------------------- | ----------- | ------------ | ---------- | ---- |
-| [Example — Bandit Level 0](writeups/overthewire/bandit-level-0.md)         | OverTheWire | Linux Basics | Easy       | ✅   |
-| [What is Networking?](tryhackme/pre-security/what-is-networking/README.md) | TryHackMe   | Networking   | Easy       | ✅   |
+| Challenge                                                                  | Platform  | Category   | Difficulty | Writeup |
+| -------------------------------------------------------------------------- | --------- | ---------- | ---------- | ------- |
+| [What is Networking?](tryhackme/pre-security/what-is-networking/README.md) | TryHackMe | Networking | Easy       | ✅      |
 
 ---
 
 ## Writeup Template
 
-> Copy this template when creating a new writeup.
-
----
+> Copy this when creating a new writeup.
 
 ````markdown
 # [Challenge Name] — [Platform]
 
-**Date:** YYYY-MM-DD  
-**Platform:** TryHackMe / PicoCTF / HTB / etc.  
-**Category:** Web / Forensics / Crypto / etc.  
-**Difficulty:** Easy / Medium / Hard  
-**Points:** XXX  
-**Flag:** `flag{REDACTED}` _(or show it if the challenge is retired/public)_
+**Date:** YYYY-MM-DD
+**Platform:** TryHackMe / PicoCTF / HTB / etc.
+**Category:** Web / Forensics / Crypto / etc.
+**Difficulty:** Easy / Medium / Hard
+**Points:** XXX
+**Flag:** `flag{REDACTED}`
 
 ---
 
@@ -164,15 +161,7 @@ nmap -sV -sC 10.10.X.X
 
 What did you find? What was interesting?
 
-### Step 2 — [What you did next]
-
-Continue documenting each meaningful step. Include:
-
-- Commands / code used
-- Screenshots or tool output (add images to `/writeups/[name]/assets/`)
-- Why you made each decision
-
-### Step 3 — Getting the Flag
+### Step 2 — Getting the Flag
 
 Explain exactly how you captured the flag.
 
@@ -182,13 +171,10 @@ Explain exactly how you captured the flag.
 
 - `nmap` — Port scanning
 - `gobuster` — Directory enumeration
-- [Add others]
 
 ---
 
 ## Key Takeaways
-
-What did you learn? What would you do differently? What concept does this challenge demonstrate?
 
 1. [Takeaway 1]
 2. [Takeaway 2]
@@ -199,7 +185,6 @@ What did you learn? What would you do differently? What concept does this challe
 ## References
 
 - [Link to relevant documentation or resource]
-- [CVE or vulnerability reference if applicable]
 
 ````
 
@@ -208,6 +193,7 @@ What did you learn? What would you do differently? What concept does this challe
 ## Tools Reference
 
 ### Web Exploitation
+
 ```bash
 # Directory/file brute-force
 gobuster dir -u http://target.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
@@ -288,9 +274,9 @@ dns
 | CyberChef    | https://gchq.github.io/CyberChef | Encoding, decoding, everything     |
 | CrackStation | https://crackstation.net         | Hash lookup                        |
 | dCode        | https://www.dcode.fr/en          | Cipher identifier + decoder        |
-| Decode.fr    | https://www.decode.fr            | Many encodings                     |
 | Shodan       | https://www.shodan.io            | OSINT / internet-connected devices |
 | VirusTotal   | https://www.virustotal.com       | Malware analysis                   |
+| Decode.fr    | https://www.decode.fr            | Many encodings                     |
 
 ---
 
@@ -312,4 +298,4 @@ dns
 
 ---
 
-_hashtags2023 | B.S. Computer Science — CSU Sacramento | Cybersecurity Enthusiast_
+_[hashtags2023](https://github.com/hashtags2023) | B.S. Computer Science — CSU Sacramento | Cybersecurity Enthusiast_
